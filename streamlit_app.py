@@ -2,5 +2,5 @@ import streamlit as st
 
 st.title("🎸Music world🎸")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "all about the best band in the world and the good music and this is my world"
 )
