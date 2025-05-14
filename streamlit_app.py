@@ -6,4 +6,4 @@ st.write(
 )
 st.image("aleta02150.jpg")
 st.balloons() 
-st.badge("No 1 Circle", color="Yellow ")
+st.badge("No1Circle", color="Yellow")
