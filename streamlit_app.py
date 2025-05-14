@@ -1,8 +1,9 @@
 import streamlit as st
 
-st.title("~BARUDAWGH ~")
+st.title("~BARUDAWGH~")
 st.write(
-    "BEJA KA BARUDAWGH ONE KOMANDOᯓ ✈︎"
+    "BEJA KA BARUDAWGH ONE KOMANDO"
 )
-st.image("aleta02150.jpg", width=200)
+st.image("aleta02150.jpg")
 st.balloons() 
+st.badge("new")
