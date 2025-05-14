@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("~WARPOL~")
+st.title("~BARUDAWGH~")
 st.write(
     "BEJA KA BARUDAWGH ONE KOMANDOᯓ ✈︎"
 )
