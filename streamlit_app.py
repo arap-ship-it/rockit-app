@@ -1,27 +1,20 @@
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "views/about_me.py",
+    "page1.py",
     title="About Me",
     icon=":material/account_circle:",
     default=True,
 )
 sales = st.Page(
-    "views/sales_dashboard.py",
+    "page2.py",
     title="Sales Dashboard",
     icon=":material/bar_chart:",
 )
 chat = st.Page(
-    "views/chatbot.py",
+    "page3.py",
     title="Chat Bot",
     icon=":material/smart_toy:",
 )
-contact = st.Page(
-    "views/contact.py",
-    title="Contact",
-    icon=":material/smart_toy:",
-)
-
-
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, sales, chat])
 
