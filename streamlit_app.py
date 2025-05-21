@@ -7,7 +7,7 @@ st.write(
 st.image("aleta02150.jpg")
 st.balloons() 
 st.badge("NO1")
-st.audio import streamlit as st
+import streamlit as st
 
 audio_value = st.audio_input("Record a voice message")
 
