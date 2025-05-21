@@ -13,8 +13,3 @@ sentiment_mapping = ["one", "two", "three", "four", "five"]
 selected = st.feedback("stars")
 if selected is not None:
     st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
-your-repository/
-├── pages/
-│   ├── page_1.py
-│   └── page_2.py
-└── your_app.py
