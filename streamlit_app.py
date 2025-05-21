@@ -1,37 +1,6 @@
-# --- PAGE SETUP ---
-about_page = st.Page(
-    "streamlit_app.py",
-    title="About Me",
-    icon=":material/account_circle:",
-    default=True,
-)
-sales = st.Page(
-    "page2.py",
-    title="Sales Dashboard",
-    icon=":material/bar_chart:",
-)
-chat = st.Page(
-    "page3.py",
-    title="Chat Bot",
-    icon=":material/smart_toy:",
-)
-# --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
-# pg = st.navigation(pages=[about_page, sales, chat])
+import streamlit as st
 
-# --- NAVIGATION SETUP [WITH SECTIONS]---
-pg = st.navigation(
-    {
-        "Info": [about_page],
-        "Projects": [sales, chat],
-        "Contact": [contact]
-    }
-)
-
-
-# --- SHARED ON ALL PAGES ---
-st.logo("assets/ngodingseru.png")
-#st.sidebar.markdown("Made with ❤️")
-
-
-# --- RUN NAVIGATION ---
-pg.run()
+st.page("streamlit_app.py", label="Home", icon="🏠")
+st.page("page1.py", label="Page 1", icon="1️⃣")
+st.page("page2.py", label="Page 2", icon="2️⃣", disabled=True)
+st.page("http://www.google.com", label="Google", icon="🌎")
