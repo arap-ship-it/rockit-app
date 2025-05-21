@@ -1,3 +1,3 @@
 import streamlit as st 
-st.title("page1")
+st.title("page2")
 
