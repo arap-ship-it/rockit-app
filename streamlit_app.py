@@ -1,6 +1,6 @@
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "page1.py",
+    "streamlit_app.py",
     title="About Me",
     icon=":material/account_circle:",
     default=True,
